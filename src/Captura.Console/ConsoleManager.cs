@@ -15,6 +15,7 @@ using Captura.ViewModels;
 using Captura.Webcam;
 using Captura.Windows;
 using static System.Console;
+using System.Drawing;
 
 namespace Captura
 {
@@ -30,6 +31,7 @@ namespace Captura
         readonly IPlatformServices _platformServices;
         readonly IMessageProvider _messageProvider;
         readonly IAudioSource _audioSource;
+        private readonly string FFmpegPath = $"{AppDomain.CurrentDomain.BaseDirectory}";
 
         public ConsoleManager(Settings Settings,
             RecordingModel RecordingModel,
@@ -65,18 +67,20 @@ namespace Captura
             // Load settings dummy
             var dummySettings = new Settings(new FFmpegSettings(), new WindowsSettings());
             dummySettings.Load();
+            dummySettings.Clicks.DisplayScroll = false;
 
             _settings.WebcamOverlay = dummySettings.WebcamOverlay;
             _settings.MousePointerOverlay = dummySettings.MousePointerOverlay;
             _settings.Clicks = dummySettings.Clicks;
             _settings.Keystrokes = dummySettings.Keystrokes;
             _settings.Elapsed = dummySettings.Elapsed;
+            _settings.WindowsSettings.UseGdi = true;
 
             // Output Folder
             _settings.OutPath = dummySettings.OutPath;
 
             // FFmpeg Path
-            _settings.FFmpeg.FolderPath = dummySettings.FFmpeg.FolderPath;
+            _settings.FFmpeg.FolderPath = dummySettings.FFmpeg.FolderPath = FFmpegPath;
 
             foreach (var overlay in dummySettings.Censored)
             {
@@ -217,13 +221,24 @@ namespace Captura
                 .Speakers
                 .ToArray();
 
-            if (StartOptions.Microphone != -1 && StartOptions.Microphone < mics.Length)
+            if (StartOptions.Microphone == -2 && _audioSource.DefaultMicrophone != null)
+            {
+                _settings.Audio.RecordMicrophone = true;
+                Microphone = _audioSource.DefaultMicrophone;
+                WriteLine("默认麦克风\n");
+            }
+            else if (StartOptions.Microphone != -1 && StartOptions.Microphone < mics.Length)
             {
                 _settings.Audio.RecordMicrophone = true;
                 Microphone = mics[StartOptions.Microphone];
             }
 
-            if (StartOptions.Speaker != -1 && StartOptions.Speaker < speakers.Length)
+            if (StartOptions.Speaker == -2 && _audioSource.DefaultSpeaker != null) 
+            {
+                _settings.Audio.RecordSpeaker = true;
+                Speaker = _audioSource.DefaultSpeaker;
+            }
+            else if (StartOptions.Speaker != -1 && StartOptions.Speaker < speakers.Length)
             {
                 _settings.Audio.RecordSpeaker = true;
                 Speaker = speakers[StartOptions.Speaker];
