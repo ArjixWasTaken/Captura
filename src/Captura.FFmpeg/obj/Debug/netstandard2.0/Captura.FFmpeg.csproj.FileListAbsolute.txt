@@ -1,0 +1,17 @@
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.FFmpeg.deps.json
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.FFmpeg.dll
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.FFmpeg.pdb
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Loc.dll
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Loc.pdb
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.dll
+C:\Users\Arjix\Captura\src\Captura.FFmpeg\obj\Debug\netstandard2.0\Captura.FFmpeg.pdb

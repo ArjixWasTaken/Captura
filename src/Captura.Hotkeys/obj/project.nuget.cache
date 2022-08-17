@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "r/9ijozYGHwD55ZufZUAuuY1BShFd5X36aCg5/1PfKgj5o3rZhRwwpijCEWcJu4Prf2wi9U+uuHnTTuzlaLrYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arjix\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

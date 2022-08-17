@@ -1,0 +1,10 @@
+C:\Users\Arjix\Captura\src\Captura.Audio\bin\Debug\netstandard2.0\Captura.Audio.deps.json
+C:\Users\Arjix\Captura\src\Captura.Audio\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.Audio\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.Audio\obj\Debug\netstandard2.0\Captura.Audio.pdb

@@ -1,0 +1,15 @@
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Loc.deps.json
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Loc.dll
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Loc.pdb
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Captura.Loc\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.dll
+C:\Users\Arjix\Captura\src\Captura.Loc\obj\Debug\netstandard2.0\Captura.Loc.pdb

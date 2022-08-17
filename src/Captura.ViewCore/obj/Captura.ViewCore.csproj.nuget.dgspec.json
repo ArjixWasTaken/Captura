@@ -1,0 +1,902 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.ViewCore\\Captura.ViewCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj",
+        "projectName": "Captura.Audio",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj",
+        "projectName": "Captura.Base",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\Captura.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\Captura.Core.csproj",
+        "projectName": "Captura.Core",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\Captura.Core.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\Captura.FFmpeg.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\Captura.FFmpeg.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\Captura.Imgur.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\Captura.Imgur.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\Captura.MouseKeyHook.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\Captura.MouseKeyHook.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\Captura.NAudio.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\Captura.NAudio.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\Captura.YouTube.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\Captura.YouTube.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "ReactiveProperty": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\Captura.FFmpeg.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\Captura.FFmpeg.csproj",
+        "projectName": "Captura.FFmpeg",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\Captura.FFmpeg.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.FFmpeg\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj",
+        "projectName": "Captura.Hotkeys",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\Captura.Hotkeys.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Hotkeys\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\Captura.Imgur.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\Captura.Imgur.csproj",
+        "projectName": "Captura.Imgur",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\Captura.Imgur.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Imgur\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj",
+        "projectName": "Captura.Loc",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\Captura.MouseKeyHook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\Captura.MouseKeyHook.csproj",
+        "projectName": "Captura.MouseKeyHook",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\Captura.MouseKeyHook.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.MouseKeyHook\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "MouseKeyHook": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.1.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\Captura.NAudio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\Captura.NAudio.csproj",
+        "projectName": "Captura.NAudio",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\Captura.NAudio.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.NAudio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Audio\\Captura.Audio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj",
+        "projectName": "Captura.SharpAvi",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "SharpAvi": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.ViewCore\\Captura.ViewCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.ViewCore\\Captura.ViewCore.csproj",
+        "projectName": "Captura.ViewCore",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.ViewCore\\Captura.ViewCore.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.ViewCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\Captura.Core.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Core\\Captura.Core.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "ReactiveProperty": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj",
+        "projectName": "Captura.Windows",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "DirectShowLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediaFoundation": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Ookii.Dialogs.WindowsForms": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D9": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.MediaFoundation": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\Captura.YouTube.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\Captura.YouTube.csproj",
+        "projectName": "Captura.YouTube",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\Captura.YouTube.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.YouTube\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.36.1.1226, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj",
+        "projectName": "Screna",
+        "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Screna\\Screna.csproj",
+        "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Screna\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+              },
+              "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj": {
+                "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Loc\\Captura.Loc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

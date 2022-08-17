@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {}
+        }
+      },
+      "SharpAvi/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpAvi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpAvi.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "Captura.Audio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Captura.Audio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Captura.Audio.dll": {}
+        }
+      },
+      "Captura.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Captura.Audio": "1.0.0",
+          "Ninject": "3.3.4",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/Captura.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Captura.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ninject/3.3.4": {
+      "sha512": "CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "type": "package",
+      "path": "ninject/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.4.nupkg.sha512",
+        "ninject.nuspec"
+      ]
+    },
+    "SharpAvi/2.1.2": {
+      "sha512": "SC30yBgMnRH3tz3sokTK0tn0N6ReuATUGLAUxmxMmBQrkfiPDXwPIFkSpA1eWUl/AXlEe7tbM9U38EVSic3ezg==",
+      "type": "package",
+      "path": "sharpavi/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35-client/SharpAvi.XML",
+        "lib/net35-client/SharpAvi.dll",
+        "lib/net45/SharpAvi.XML",
+        "lib/net45/SharpAvi.dll",
+        "sharpavi.2.1.2.nupkg.sha512",
+        "sharpavi.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.5.0": {
+      "sha512": "AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Captura.Audio/1.0.0": {
+      "type": "project",
+      "path": "../Captura.Audio/Captura.Audio.csproj",
+      "msbuildProject": "../Captura.Audio/Captura.Audio.csproj"
+    },
+    "Captura.Base/1.0.0": {
+      "type": "project",
+      "path": "../Captura.Base/Captura.Base.csproj",
+      "msbuildProject": "../Captura.Base/Captura.Base.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Captura.Base >= 1.0.0",
+      "SharpAvi >= 2.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Arjix\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj",
+      "projectName": "Captura.SharpAvi",
+      "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj",
+      "packagesPath": "C:\\Users\\Arjix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Arjix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.bepinex.dev/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj": {
+              "projectPath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Base\\Captura.Base.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "SharpAvi": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

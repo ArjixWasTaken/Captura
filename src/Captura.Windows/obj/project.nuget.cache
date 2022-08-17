@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "DHRLD072iidJy2z7gBsRZTvgmuUOIIaHHfHo3ia8qQaXYZokTLTt8ewRyMzzTr3/suAsMLksW64lSDbUgYFGlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arjix\\Captura\\src\\Captura.Windows\\Captura.Windows.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arjix\\.nuget\\packages\\directshowlib\\1.0.0\\directshowlib.1.0.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\mediafoundation\\3.1.0\\mediafoundation.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\ookii.dialogs.windowsforms\\1.0.0\\ookii.dialogs.windowsforms.1.0.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx\\4.2.0\\sharpdx.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.direct2d1\\4.2.0\\sharpdx.direct2d1.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.direct3d11\\4.2.0\\sharpdx.direct3d11.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.direct3d9\\4.2.0\\sharpdx.direct3d9.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.dxgi\\4.2.0\\sharpdx.dxgi.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.mathematics\\4.2.0\\sharpdx.mathematics.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpdx.mediafoundation\\4.2.0\\sharpdx.mediafoundation.4.2.0.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

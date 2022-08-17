@@ -1,0 +1,15 @@
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.YouTube.deps.json
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.YouTube.dll
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.YouTube.pdb
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Captura.YouTube\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.dll
+C:\Users\Arjix\Captura\src\Captura.YouTube\obj\Debug\netstandard2.0\Captura.YouTube.pdb

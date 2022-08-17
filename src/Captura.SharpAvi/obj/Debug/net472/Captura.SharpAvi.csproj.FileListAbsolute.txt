@@ -1,0 +1,17 @@
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.SharpAvi.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.SharpAvi.pdb
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Ninject.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\SharpAvi.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\System.Drawing.Common.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\bin\Debug\net472\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.dll
+C:\Users\Arjix\Captura\src\Captura.SharpAvi\obj\Debug\net472\Captura.SharpAvi.pdb

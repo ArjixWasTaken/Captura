@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "11Z/8u9Sky6PE/7J16e7V8FqW6cuWrHFirN7q1VIy//eQB5GCtwaQN5ysSvkPQU9IN3UaEnkQ09Ti+K4Q+Kobw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arjix\\Captura\\src\\Captura.SharpAvi\\Captura.SharpAvi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arjix\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\sharpavi\\2.1.2\\sharpavi.2.1.2.nupkg.sha512",
+    "C:\\Users\\Arjix\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

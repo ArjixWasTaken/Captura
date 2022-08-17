@@ -1,0 +1,13 @@
+C:\Users\Arjix\Captura\src\Captura.Base\bin\Debug\netstandard2.0\Captura.Base.deps.json
+C:\Users\Arjix\Captura\src\Captura.Base\bin\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.Base\bin\Debug\netstandard2.0\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Captura.Base\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Captura.Base\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Captura.Base\obj\Debug\netstandard2.0\Captura.Base.pdb

@@ -1,0 +1,17 @@
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Screna.deps.json
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Screna.dll
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Screna.pdb
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Audio.dll
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Base.dll
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Loc.dll
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Base.pdb
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Loc.pdb
+C:\Users\Arjix\Captura\src\Screna\bin\Debug\netstandard2.0\Captura.Audio.pdb
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.csproj.AssemblyReference.cache
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.AssemblyInfoInputs.cache
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.AssemblyInfo.cs
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.csproj.CoreCompileInputs.cache
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.csproj.CopyComplete
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.dll
+C:\Users\Arjix\Captura\src\Screna\obj\Debug\netstandard2.0\Screna.pdb

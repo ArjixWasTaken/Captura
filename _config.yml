@@ -1,18 +1,18 @@
 title: Captura
 description: Capture Screen, Audio, Cursor, Mouse Clicks and Keystrokes
 author: Mathew Sachin
-url: "https://MathewSachin.github.io"
+url: "https://ArjixWasTaken.github.io"
 baseurl: "/Captura"
-docs: "https://github.com/MathewSachin/Captura/blob/master/docs"
+docs: "https://github.com/ArjixWasTaken/Captura/blob/master/docs"
 
-github: "https://github.com/MathewSachin/Captura"
+github: "https://github.com/ArjixWasTaken/Captura"
 paypal: "https://paypal.me/MathewSachin"
 gitter: "https://gitter.im/MathewSachin/Captura"
-appveyor: "https://ci.appveyor.com/project/MathewSachin/Captura"
+appveyor: "https://ci.appveyor.com/project/ArjixWasTaken/Captura"
 gitter_room: "MathewSachin/Captura"
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]
 
 plugins:
-  - jekyll-seo-tag  # Search Engine Optimization
-  - jekyll-sitemap # Site Map
+    - jekyll-seo-tag # Search Engine Optimization
+    - jekyll-sitemap # Site Map
