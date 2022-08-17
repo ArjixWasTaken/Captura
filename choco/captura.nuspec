@@ -5,13 +5,13 @@
     <version>8.0.1</version>
     <title>Captura</title>
     <authors>Mathew Sachin</authors>
-    <projectUrl>https://MathewSachin.github.io/Captura</projectUrl>
+    <projectUrl>https://ArjixWasTaken.github.io/Captura</projectUrl>
     <projectSourceUrl>https://github.com/ArjixWasTaken/Captura</projectSourceUrl>
     <iconUrl>https://raw.githubusercontent.com/ArjixWasTaken/Captura/master/src/Captura/Images/Logo.png</iconUrl>
     <licenseUrl>https://github.com/ArjixWasTaken/Captura/blob/master/LICENSE.md</licenseUrl>
     <packageSourceUrl>https://github.com/ArjixWasTaken/Captura/tree/master/choco</packageSourceUrl>
     <bugTrackerUrl>https://github.com/ArjixWasTaken/Captura/issues</bugTrackerUrl>
-    <docsUrl>https://MathewSachin.github.io/Captura</docsUrl>
+    <docsUrl>https://ArjixWasTaken.github.io/Captura</docsUrl>
     <mailingListUrl>https://gitter.im/ArjixWasTaken/Captura</mailingListUrl>
     <copyright>(c) 2018 Mathew Sachin</copyright>
     <tags>captura screen capture recording loopback screenshot screencast</tags>
@@ -19,7 +19,7 @@
     <description>
 Captura is an application to capture Screen/Audio/Cursor/Clicks/Keystrokes.
     </description>
-    <releaseNotes>[Changelog](https://MathewSachin.github.io/Captura/changelog)</releaseNotes>
+    <releaseNotes>[Changelog](https://ArjixWasTaken.github.io/Captura/changelog)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -1,12 +1,15 @@
 # Support
 
 ## GitHub Issues
-Use [GitHub issues](https://github.com/MathewSachin/Captura/issues) for Bug Reports, Feature Requests and Questions.
+
+Use [GitHub issues](https://github.com/ArjixWasTaken/Captura/issues) for Bug Reports, Feature Requests and Questions.
 
 ## Gitter
-[![Chat](https://img.shields.io/badge/chat-on_gitter-yellow.svg?style=flat-square)](https://gitter.im/MathewSachin/Captura)
+
+[![Chat](https://img.shields.io/badge/chat-on_gitter-yellow.svg?style=flat-square)](https://gitter.im/ArjixWasTaken/Captura)
 
 ## Mail
+
 Try to use GitHub Issues instead of mailing, it allows us to track your Feature Requests and Bug Reports better.
 
 Use mail only in cases where personal information is involved.

@@ -24,7 +24,7 @@
                                LineHeight="30"
                                Style="{StaticResource TextColor}">
                         <Run FontSize="20" Text="Captura"/> <Run Text="{Binding AppVersion, Mode=OneWay}"/><LineBreak/>
-                        © <Run Text="{Binding Year, Source={x:Static sys:DateTime.Now}, Mode=OneWay}"/> <Hyperlink CommandParameter="https://github.com/MathewSachin">Mathew Sachin</Hyperlink>
+                        © <Run Text="{Binding Year, Source={x:Static sys:DateTime.Now}, Mode=OneWay}"/> <Hyperlink CommandParameter="https://github.com/ArjixWasTaken">Mathew Sachin</Hyperlink>
                     </TextBlock>
                 </DockPanel>
 
@@ -32,7 +32,7 @@
                     <captura:ModernButton Content="GitHub"
                                           IconData="{Binding Icons.GitHub, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://github.com/MathewSachin/Captura/"/>
+                                          CommandParameter="https://github.com/ArjixWasTaken/Captura/"/>
 
                     <captura:ModernButton Content="{Binding Donate, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.PayPal, Source={StaticResource ServiceLocator}}"
@@ -42,7 +42,7 @@
                     <captura:ModernButton Content="{Binding Website, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.Web, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://MathewSachin.github.io/Captura"/>
+                                          CommandParameter="https://ArjixWasTaken.github.io/Captura"/>
                 </WrapPanel>
 
                 <GridSplitter Height="3"
@@ -53,12 +53,12 @@
                     <captura:ModernButton Content="{Binding WantToTranslate, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.Translate, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://mathewsachin.github.io/Captura/translation"/>
+                                          CommandParameter="https://ArjixWasTaken.github.io/Captura/translation"/>
 
                     <captura:ModernButton Content="{Binding Changelog, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.History, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://mathewsachin.github.io/Captura/changelog"/>
+                                          CommandParameter="https://ArjixWasTaken.github.io/Captura/changelog"/>
                 </WrapPanel>
 
                 <WrapPanel HorizontalAlignment="Center">

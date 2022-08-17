@@ -8,16 +8,16 @@ If it is a tag build, the release is deployed to GitHub Releases as a draft and 
 
 > Dev builds can be unstable and should be used for testing purposes only.
 
-1. Go to [AppVeyor project](https://ci.appveyor.com/project/MathewSachin/Captura/branch/master) page.
+1. Go to [AppVeyor project](https://ci.appveyor.com/project/ArjixWasTaken/Captura/branch/master) page.
 
 2. Select Build Configuration: **Debug** or **Release**.
 
-   ![img](https://mathewsachin.github.io/Captura/assets/dev-builds/1.png)
+    ![img](https://ArjixWasTaken.github.io/Captura/assets/dev-builds/1.png)
 
 3. Open **Artifacts** tab.
 
-   ![img](https://mathewsachin.github.io/Captura/assets/dev-builds/2.png)
+    ![img](https://ArjixWasTaken.github.io/Captura/assets/dev-builds/2.png)
 
 4. Download the Portable or Setup version according to your need.
 
-   ![img](https://mathewsachin.github.io/Captura/assets/dev-builds/3.png)
+    ![img](https://ArjixWasTaken.github.io/Captura/assets/dev-builds/3.png)

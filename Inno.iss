@@ -3,7 +3,7 @@
 
 #define MyAppName "Captura"
 #define MyAppPublisher "Mathew Sachin"
-#define MyAppURL "https://MathewSachin.github.io/Captura"
+#define MyAppURL "https://ArjixWasTaken.github.io/Captura"
 #define MyAppExeName "captura.exe"
 
 [Setup]

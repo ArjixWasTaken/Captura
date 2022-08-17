@@ -21,7 +21,7 @@ namespace Captura.ViewModels
         readonly IMessageProvider _messageProvider;
         Task _uploadTask;
         string _fileName, _link, _title;
-        string _description = "\n\n\n\n--------------------------------------------------\n\nUploaded using Captura (https://mathewsachin.github.io/Captura/)";
+        string _description = "\n\n\n\n--------------------------------------------------\n\nUploaded using Captura (https://ArjixWasTaken.github.io/Captura/)";
         YouTubePrivacyStatus _privacyStatus;
         int _progress;
         bool _beganUploading;

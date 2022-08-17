@@ -74,12 +74,7 @@ namespace Captura
         static void BindUpdateChecker(IBinder Binder)
         {
             var version = ServiceProvider.AppVersion;
-
-            if (version?.Major == 0)
-            {
-                Binder.Bind<IUpdateChecker, DevUpdateChecker>();
-            }
-            else Binder.Bind<IUpdateChecker, UpdateChecker>();
+            Binder.Bind<IUpdateChecker, UpdateChecker>();
         }
 
         static void BindAudioSource(IBinder Binder)
