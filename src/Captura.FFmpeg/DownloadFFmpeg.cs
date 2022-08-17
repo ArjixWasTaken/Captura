@@ -10,17 +10,8 @@ namespace Captura.FFmpeg
 {
     public static class DownloadFFmpeg
     {
-        static readonly Uri FFmpegUri;
-        static readonly string FFmpegArchivePath;
-
-        static DownloadFFmpeg()
-        {
-            var bits = Environment.Is64BitOperatingSystem ? 64 : 32;
-
-            FFmpegUri = new Uri($"https://ffmpeg.zeranoe.com/builds/win{bits}/static/ffmpeg-latest-win{bits}-static.zip");
-
-            FFmpegArchivePath = Path.Combine(Path.GetTempPath(), "ffmpeg.zip");
-        }
+        static readonly Uri FFmpegUri = new Uri($"https://github.com/BtbN/FFmpeg-Builds/releases/latest/download/ffmpeg-master-latest-win64-gpl.zip");
+        static readonly string FFmpegArchivePath = Path.Combine(Path.GetTempPath(), "ffmpeg.zip");
 
         public static async Task DownloadArchive(Action<int> Progress, IWebProxy Proxy, CancellationToken CancellationToken)
         {
