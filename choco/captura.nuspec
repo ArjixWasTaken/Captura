@@ -2,17 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>captura</id>
-    <version>8.0.0</version>
+    <version>8.0.1</version>
     <title>Captura</title>
     <authors>Mathew Sachin</authors>
     <projectUrl>https://MathewSachin.github.io/Captura</projectUrl>
-    <projectSourceUrl>https://github.com/MathewSachin/Captura</projectSourceUrl>
-    <iconUrl>https://raw.githubusercontent.com/MathewSachin/Captura/master/src/Captura/Images/Logo.png</iconUrl>
-    <licenseUrl>https://github.com/MathewSachin/Captura/blob/master/LICENSE.md</licenseUrl>
-    <packageSourceUrl>https://github.com/MathewSachin/Captura/tree/master/choco</packageSourceUrl>
-    <bugTrackerUrl>https://github.com/MathewSachin/Captura/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ArjixWasTaken/Captura</projectSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/ArjixWasTaken/Captura/master/src/Captura/Images/Logo.png</iconUrl>
+    <licenseUrl>https://github.com/ArjixWasTaken/Captura/blob/master/LICENSE.md</licenseUrl>
+    <packageSourceUrl>https://github.com/ArjixWasTaken/Captura/tree/master/choco</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/ArjixWasTaken/Captura/issues</bugTrackerUrl>
     <docsUrl>https://MathewSachin.github.io/Captura</docsUrl>
-    <mailingListUrl>https://gitter.im/MathewSachin/Captura</mailingListUrl>
+    <mailingListUrl>https://gitter.im/ArjixWasTaken/Captura</mailingListUrl>
     <copyright>(c) 2018 Mathew Sachin</copyright>
     <tags>captura screen capture recording loopback screenshot screencast</tags>
     <summary>Capture Screen/Audio/Cursor/Clicks/Keystrokes</summary>
